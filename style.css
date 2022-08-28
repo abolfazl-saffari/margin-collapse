@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Maze&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Rubik Maze", cursive;
+  color: hsl(0, 0%, 100%);
+}
+
+.blue-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: hsl(240, 100%, 50%);
+  margin: 0 0 50px 0;
+}
+
+.red-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: hsl(0, 100%, 50%);
+  margin: 20px 0 0 0;
+}
